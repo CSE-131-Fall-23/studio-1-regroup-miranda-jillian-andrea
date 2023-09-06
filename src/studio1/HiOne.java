@@ -16,8 +16,12 @@ public class HiOne {
 		// Below this line, enter code so that this program's output says
 		//      Hi, Pat.  How are you?
 		// if the value of name is "Pat"
-		//
-
-	}
+		
+		System.out.println("Please enter name");
+		String name2 = in.nextLine();
+		System.out.println("Hello "+ name2+ ", How are you?");
+		
+		
+}
 
 }
